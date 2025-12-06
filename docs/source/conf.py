@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SlimeVR'
+copyright = '2025, Bitdeck'
+author = 'bitdeck'
 
 release = '0.1'
 version = '0.1.0'
@@ -31,5 +31,24 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+# 添加以下配置，设置导航栏默认展开
+# 修改主题选项
+html_theme_options = {
+    # 导航选项
+    'collapse_navigation': True,     # 改为 True，允许折叠
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False,
+}
+
+html_show_sourcelink = False  # 禁用查看源码链接
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+html_static_path = ['_static']
+
+extensions = [
+    'sphinx_tabs.tabs'
+]

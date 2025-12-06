@@ -1,22 +1,27 @@
-Welcome to Lumache's documentation!
-===================================
+什么是SlimeVR？
+----------------
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+SlimeVR 是一套开源硬件传感器和软件，旨在实现虚拟现实中的全身追踪 (FBT)。该项目的设计理念是打造一个可定制、可修改且可根据用户需求进行调整的系统。
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+SlimeVR 是一款低成本的虚拟现实全身追踪解决方案。它采用前向运动学，通过计算每个追踪器基于其旋转的位置来构建人体模型。唯一的固定点是您的头显，它作为主要参考位置。
 
-.. note::
+由于头显是唯一的固定数据点，SlimeVR 不需要像灯塔这样的额外追踪设备。它依靠惯性测量单元 (IMU) 来追踪每个设备的旋转。使用的 IMU设备 越多，可用于追踪身体的点就越多。
 
-   This project is under active development.
+正向运动学是根据骨骼角度计算身体部位（例如脚或手臂）位置的过程。给定关节（例如膝盖或肘关节）的位置，正向运动学可以告诉你脚或手臂在空间中的位置。这就像计算当你以某种方式弯曲腿时，你的脚会去哪里一样。
 
-Contents
+联系方式
 --------
 
-.. toctree::
+如果有需要交流可以加微信: 
 
-   usage
-   api
+.. figure:: ./_static/images/wechat_bitdeck.jpg
+   :align: center
+   :alt: 个人二维码
+   :figclass: align-center
+   :scale: 50%
+
+.. toctree::
+   :maxdepth: 6
+
+   SlimeVR/SlimVR_introduction
+
