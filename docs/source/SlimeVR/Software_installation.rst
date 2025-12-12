@@ -22,43 +22,59 @@
 
 1. 打开SlimeVR服务器。在第一页，你可以通过右下角的按钮更改应用语言。准备好后，点击“让我们开始设置！”
 
-.. figure:: ../_static/images/quick_intro.png
+.. figure:: ../_static/images/quick_intro_.png
    :align: center
    :alt: 初始化
 
 2.输入你的2.4GHz Wi-Fi凭证，这样追踪器就能连接Wi-Fi，然后点击提交。
 
-.. figure:: ../_static/images/quick_wifi.png
+.. figure:: ../_static/images/quick_wifi_.png
    :align: center
    :alt: 初始化
 
-3.一次只插入追踪器并打开它们，你应该会在左侧更新中看到进度条，显示Wi-Fi详情正在发送。一定要用追踪器附带的线缆，因为其他线可能不适合传输数据。
+3.用数据线插入追踪器连接电脑，并打开开关，你应该会在左侧更新中看到进度条，显示Wi-Fi详情正在发送。一定要用追踪器附带的线缆，因为其他线可能不适合传输数据。
 
-.. figure:: ../_static/images/quick_connectTracker.gif
+  如果追踪器开关没有打开，会弹出提示框
+
+  .. figure:: ../_static/images/quick_connect_0.png
+   :align: center
+   :alt: 初始化
+
+
+.. figure:: ../_static/images/configuration_1.jpg
+   :align: center
+   :alt: 初始化
+
+.. figure:: ../_static/images/quick_connectTracker_1.png
    :align: center
    :alt: 初始化
 
 4.当你连接好所有追踪器后，你应该会看到它们在右侧以数字列出。如果你忘了哪些追踪器还没插上，摇晃连接的追踪器会在列表中高亮显示。点击，我连接了所有追踪器，完成后。
 
-.. figure:: ../_static/images/quick_trackerConnected.png
+
+ .. figure:: ../_static/images/quick_connectTracker_2.png
    :align: center
    :alt: 初始化
 
 5.按照页面上的指示，开机时把追踪器放在平面上，点击一下。我把追踪器放在桌子上，等待过程完成。
 
-.. figure:: ../_static/images/quick_calibrate.png
+.. figure:: ../_static/images/Screenquick_calibrate_1.png
+   :align: center
+   :alt: 初始化
+
+.. figure:: ../_static/images/configuration_2.jpg
    :align: center
    :alt: 初始化
 
 6.校准完成后，点击“继续”。
 
-.. figure:: ../_static/images/quick_calibrateComplete.png
+.. figure:: ../_static/images/Screenquick_calibrate_2.png
    :align: center
    :alt: 初始化
 
 7.按照页面上的说明，通过绑带和贴纸来准备你的追踪器，帮助你记住每个身体部位的追踪器。当所有追踪器准备好后，点击“我贴上贴纸和绑带！”继续前进。
 
-.. figure:: ../_static/images/quick_prepare.png
+.. figure:: ../_static/images/Get_dressed_properly.png
    :align: center
    :alt: 初始化
 
@@ -77,7 +93,7 @@
 
 2.使用此列表，选择SlimeVR吉祥物Nighty上与你想选择追踪器区域对应的位置。
 
-.. figure:: ../_static/images/quick_assign.png
+.. figure:: ../_static/images/quick_assign_.png
    :align: center
    :alt: 初始化
 
@@ -107,7 +123,7 @@
 
 6.SlimeVR提供自动和手动的安装方向判定流程，自动校准能提升追踪质量，但校准不当会让追踪质量变差。这需要一些时间来确定并确认是否适合你以及你佩戴追踪器的方式。我们正在努力改进，但建议新用户使用手动流程。
  
-.. figure:: ../_static/images/quick_mountingChoice.png
+.. figure:: ../_static/images/quick_mountingChoice_.png
    :align: center
    :alt: 初始化
 
@@ -132,9 +148,26 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 
     注意：如果你没有开头显且没有运行SteamVR，自动挂载可能无法正常工作。自动安装可以提升追踪质量，但校准不当会让效果更差。只有在你对SlimeVR有经验时才选择这个选项。
 
-.. figure:: ../_static/images/quick_mountingAuto.png
+.. figure:: ../_static/images/Wearing_calibration_1.png
    :align: center
    :alt: 初始化
+
+.. figure:: ../_static/images/Wearing_calibration_2.png
+   :align: center
+   :alt: 初始化
+
+.. figure:: ../_static/images/Wearing_calibration_3.png
+   :align: center
+   :alt: 初始化
+
+.. figure:: ../_static/images/Wearing_calibration_4.png
+   :align: center
+   :alt: 初始化
+
+.. figure:: ../_static/images/Wearing_calibration_5.png
+   :align: center
+   :alt: 初始化
+
 
 重置教程
 ---------
@@ -158,7 +191,7 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 ---------
 1.最后一个配置是让SlimeVR来计算你的比例！这是复制你在虚拟空间中动作的重要一步。
 
-.. figure:: ../_static/images/quick_proportionsChoice.png
+.. figure:: ../_static/images/Height_proportion_configuration.png
    :align: center
    :alt: 初始化
 
@@ -178,6 +211,11 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 -----------
 
 如果你不使用 SteamVR，就必须手动设置这些值，或者使用 VRChat OSC 查询来启用自动比例。有关如何测量每个数值的更多信息，请参阅身体比例配置页面顶部的信息。
+
+
+.. figure:: ../_static/images/Height_proportion_configuration.png
+   :align: center
+   :alt: 初始化
 
 
 .. figure:: ../_static/images/quick_proportionsManual.png
@@ -252,6 +290,20 @@ OSC
 我在SteamVR里的追踪器设置不正确
 如果在SteamVR启动任何游戏前已经设置了这个功能，请进入设置>控制器>管理Vive追踪器，手动设置追踪器的位置以匹配虚拟追踪器的名称。如果这是游戏内的问题，可能是校准问题！
 我的追踪器无法连接我的Wi-Fi。
+
+
+
+这是我们测试效果的视频
+--------------------------------
+
+.. raw:: html
+
+   <div style="text-align: center">
+      <video width="100%" height="auto" controls autoplay muted loop>
+         <source src="../_static/videos/SlimVR.mp4" type="video/mp4">
+         Your browser does not support the video tag.
+      </video>
+   </div>
 
 
 .. toctree::
