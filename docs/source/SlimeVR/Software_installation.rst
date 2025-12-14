@@ -2,18 +2,69 @@
 快速开始
 =============
 
+硬件介绍
+
+
+.. figure:: ../_static/images/slimevr_1.jpg
+   :align: center
+   :alt: 初始化
+
+
+
+.. figure:: ../_static/images/slimevr_2.png
+   :align: center
+   :alt: 初始化
+
+
+
 本教程将会快速指导您安装 SlimeVR 相关应用程序，在此之前，请先前往 Steam，完成 SteamVR 的安装
+
+也可以下载本地程序：`下载驱动程序SteamSetup.exe <../_static/driver/SteamSetup.exe>`_ 
+
 
 
 软件安装
 ---------
-
-您可以使用 `Web Installer <https://github.com/SlimeVR/SlimeVR-Installer/releases/download/v0.2.0/slimevr_web_installer.exe>`_ 安装最新的 SlimeVR 客户端 和 驱动程序，如 Web Installer 安装时，进度条长时间没有更新 或 安装失败 ，则可能是网络问题， 则可以进行手动安装。
+您可以使用 `Web Installer <../_static/driver/slimevr_web_installer.exe>`_ 安装最新的 SlimeVR 客户端 和 驱动程序，如 Web Installer 安装时，进度条长时间没有更新 或 安装失败 ，则可能是网络问题， 则可以进行手动安装。
 保持安装选项框默认即可，一般情况下不需要特别修改。
+
+
 
 .. figure:: ../_static/images/setup.jpg
    :align: center
    :alt: 初始化
+
+
+
+
+手动安装
+----------
+若您无法完成快速安装，可以尝试在此进行手动安装。`SlimeVR Server下载程序SlimeVR-win64-0.16.3.zip <../_static/driver/SlimeVR-win64-0.16.3.zip>`_
+1.解压 SlimeVR-win64.zip，将 SlimeVR 文件夹放在没有非中文的路径即可（例如：D盘根目录）。
+2.进入文件夹，选择 firewall.bat，右键，使用管理员身份运行。
+
+
+
+.. figure:: ../_static/images/install-20.png
+   :align: center
+   :alt: 初始化
+
+
+
+3.程序运行完后，即可关闭窗口，后续运行 slimevr.exe，即可启动程序。
+
+
+
+.. figure:: ../_static/images/install-21.png
+   :align: center
+   :alt: 初始化
+
+
+
+4.SlimeVR Server 安装到此结束。
+
+您也可以对着 slimevr.exe 单击右键，选择：发送到 - 桌面快捷方式，来方便使用。
+
 
 
 连接和准备你的追踪器
@@ -23,34 +74,46 @@
 
 1. 打开SlimeVR服务器。在第一页，你可以通过右下角的按钮更改应用语言。准备好后，点击“让我们开始设置！”
 
+
+
 .. figure:: ../_static/images/quick_intro_.png
    :align: center
    :alt: 初始化
 
 
+
 2.输入你的2.4GHz Wi-Fi凭证，这样追踪器就能连接Wi-Fi，然后点击提交。
+
+
 
 .. figure:: ../_static/images/quick_wifi_.png
    :align: center
    :alt: 初始化
 
 
+
 3.用数据线插入追踪器连接电脑，并打开开关，你应该会在左侧更新中看到进度条，显示Wi-Fi详情正在发送。一定要用追踪器附带的线缆，因为其他线可能不适合传输数据。
 
   如果追踪器开关没有打开，会弹出提示框
+
+
 
   .. figure:: ../_static/images/quick_connect_0.png
    :align: center
    :alt: 初始化
 
 
+
 .. figure:: ../_static/images/configuration_1.jpg
    :align: center
    :alt: 初始化
 
+
+
 .. figure:: ../_static/images/quick_connectTracker_1.png
    :align: center
    :alt: 初始化
+
 
 
 4.当你连接好所有追踪器后，你应该会看到它们在右侧以数字列出。如果你忘了哪些追踪器还没插上，摇晃连接的追踪器会在列表中高亮显示。点击，我连接了所有追踪器，完成后。
@@ -61,14 +124,12 @@
    :alt: 初始化
 
 
+
 5.按照页面上的指示，开机时把追踪器放在平面上，点击一下。我把追踪器放在桌子上，等待过程完成。
 
 .. figure:: ../_static/images/Screenquick_calibrate_1.png
    :align: center
    :alt: 初始化
-
-
-
 
 
 
@@ -78,9 +139,8 @@
 
 
 
-
-
 6.校准完成后，点击“继续”。
+
 
 .. figure:: ../_static/images/Screenquick_calibrate_2.png
    :align: center
@@ -89,12 +149,13 @@
 
 
 
-
 7.按照页面上的说明，通过绑带和贴纸来准备你的追踪器，帮助你记住每个身体部位的追踪器。当所有追踪器准备好后，点击“我贴上贴纸和绑带！”继续前进。
+
 
 .. figure:: ../_static/images/Get_dressed_properly.png
    :align: center
    :alt: 初始化
+
 
 
 选择和分配身体位置
@@ -111,12 +172,14 @@
 
 2.使用此列表，选择SlimeVR吉祥物Nighty上与你想选择追踪器区域对应的位置。
 
+
 .. figure:: ../_static/images/quick_assign_.png
    :align: center
    :alt: 初始化
 
 
 3.弹窗打开时，你可以点击想用的追踪器来指定该位置两次，自动分配。如果你觉得更简单，也可以在列表中选择你想分配的特定追踪器。
+
 
 .. figure:: ../_static/images/quick_assignPopup_.png
    :align: center
@@ -147,14 +210,16 @@
 
 6.SlimeVR提供自动和手动的安装方向判定流程，自动校准能提升追踪质量，但校准不当会让追踪质量变差。这需要一些时间来确定并确认是否适合你以及你佩戴追踪器的方式。我们正在努力改进，但建议新用户使用手动流程。
  
+
+
 .. figure:: ../_static/images/quick_mountingChoice_.png
    :align: center
    :alt: 初始化
 
 
 
-
 7.点击你的追踪器，可以调出安装方向列表。
+
 
 .. figure:: ../_static/images/quick_proportionsManual_1.png
    :align: center
@@ -162,13 +227,13 @@
 
 
 
-
 8.选择最能代表该跟踪器安装方向的方向。
+
+
 
 .. figure:: ../_static/images/quick_mountingPopup_.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -181,7 +246,6 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 在自动化过程中，按照指示作，SlimeVR会推断出追踪器在你身上的位置。
 
     注意：如果你没有开头显且没有运行SteamVR，自动挂载可能无法正常工作。自动安装可以提升追踪质量，但校准不当会让效果更差。只有在你对SlimeVR有经验时才选择这个选项。
-
 
 
 
@@ -198,18 +262,15 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 
 
 
-
 .. figure:: ../_static/images/Wearing_calibration_3.png
    :align: center
    :alt: 初始化
 
 
 
-
 .. figure:: ../_static/images/Wearing_calibration_4.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -225,11 +286,9 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 1.跟随流程了解追踪器内置的三种不同类型的重置：
 
 
-
 .. figure:: ../_static/images/quick_reset_.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -249,11 +308,9 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 
 
 
-
 .. figure:: ../_static/images/Height_proportion_configuration_1.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -263,18 +320,15 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 
 
 
-
 .. figure:: ../_static/images/Height_proportion_configuration_3.png
    :align: center
    :alt: 初始化
 
 
 
-
 .. figure:: ../_static/images/Height_proportion_configuration_4.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -289,19 +343,15 @@ SlimeVR提供自动化流程，记录你用追踪器设置的安装方向，这�
 如果你不使用 SteamVR，就必须手动设置这些值，或者使用 VRChat OSC 查询来启用自动比例。有关如何测量每个数值的更多信息，请参阅身体比例配置页面顶部的信息。
 
 
-
-
 .. figure:: ../_static/images/Height_proportion_configuration.png
    :align: center
    :alt: 初始化
 
 
 
-
 .. figure:: ../_static/images/quick_proportionsManual_.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -323,11 +373,9 @@ SlimeVR 服务器现在自动分配了 SteamVR 追踪器，开启该开关后，
 
 
 
-
 .. figure:: ../_static/images/quick_settingsPage_.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -344,11 +392,9 @@ OSC
 如果你决定在Steam版本的VRChat上使用OSC追踪器，务必先禁用所有SteamVR追踪器，再进入OSC设置。
 
 
-
 .. figure:: ../_static/images/quick_oscSettings_.png
    :align: center
    :alt: 初始化
-
 
 
 
@@ -368,8 +414,7 @@ OSC
 
 欲了解更多OSC信息，请访问OSC页面。
 
-
-   
+  
 在完成这个设置后重新装上它们
 下次你想使用追踪器时，只需安装它们，快速通过安装校准向导即可。其他设置都应该保存在你初始设置时！在进行这个过程之前，确保你戴上了头显并运行了SteamVR。
 
