@@ -24,4 +24,5 @@ SlimeVR 是一款低成本的虚拟现实全身追踪解决方案。它采用前
    :maxdepth: 6
 
    SlimeVR/SlimVR_introduction
+   SlimeVR/Software_installation
 

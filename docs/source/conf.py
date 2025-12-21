@@ -50,5 +50,7 @@ epub_show_urls = 'footnote'
 html_static_path = ['_static']
 
 extensions = [
+    'sphinx.ext.imgmath',
+    # 'sphinx.ext.pngmath',
     'sphinx_tabs.tabs'
 ]
