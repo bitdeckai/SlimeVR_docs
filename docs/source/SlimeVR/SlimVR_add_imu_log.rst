@@ -15,8 +15,8 @@ SlimeVR 追踪器内置了日志系统，可以记录 IMU 数据用于调试和�
 
 可下载Windows安装包文件如下：
 
-- :download:`slimevr_0.5.1_x64-setup.exe <../_static/tools/slimevr_18.2.0_logIMU_x64-setup.exe>`
-- :download:`slimevr_0.5.1_x64_en-US.msi <../_static/tools/slimevr_18.2.0_logIMU_x64_en-US.msi>`
+- :download:`slimevr_18.2.0_logIMU_x64-setup.exe <../_static/tools/slimevr_18.2.0_logIMU_x64-setup.exe>`
+- :download:`slimevr_18.2.0_logIMU_x64_en-US.msi <../_static/tools/slimevr_18.2.0_logIMU_x64_en-US.msi>`
 
 也可以替换slimevr.jar文件
 
